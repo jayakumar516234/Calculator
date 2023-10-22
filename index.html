@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+   <title>calculator</title>
+</head>
+<body>
+    <main>
+        <div class="head">
+            <h1>CALCULATOR</h1>
+        </div>
+        <div class="calculator">
+            <div class="screen" id="op"> 0</div>
+
+            <!-- on off operatorrs -->
+            <div class="operate">
+                <button id="on"  onclick="start('start')">ON</button>
+                <button id="off"  onclick="stop('stop')">OFF</button>
+            </div>
+
+            <!-- buttons -->
+            <div class="buttons">
+                <button onclick="asign(7)">7</button>
+                <button onclick="asign(8)">8</button>
+                <button onclick="asign(9)">9</button>
+                <button onclick="operators('+')" class="operator">+</button>
+                <button onclick="asign(4)">4</button>
+                <button onclick="asign(5)">5</button>
+                <button onclick="asign(6)">6</button>
+                <button onclick="operators('-')" class="operator">-</button>
+                <button onclick="asign(1)">1</button>
+                <button onclick="asign(2)">2</button>
+                <button onclick="asign(3)">3</button>
+                <button onclick="operators('*')" class="operator">*</button>
+                <button onclick="operators('symbol')">+/-</button>
+                <button onclick="asign(0)">0</button>
+                <button onclick="dot('dot')">.</button>
+                <button onclick="operators('/')"class="operator">/</button>
+                <button onclick="operators('⌫')" class="operator">⌫</button>
+                <button onclick="operators('%')" class="operator">%</button>
+                <button onclick="operators('clear')"class="clear">c</button>
+                <button onclick="operators('=')" class="equal">=</button>
+              
+            </div>
+
+        </div>
+    </main>
+    <script src="clic.js"></script>
+</body>
+</html>
