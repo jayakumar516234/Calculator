@@ -20,7 +20,8 @@ function start(turn){
       val=" "
       on.style.boxShadow="0px 0px 5px 2px"
       off.style.boxShadow="none"
-      op.style.opacity=1;      
+      op.style.opacity=1;  
+      op.style.color="black";    
     }
    }
 
